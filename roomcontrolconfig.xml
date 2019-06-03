@@ -1,0 +1,37 @@
+<Extensions>
+  <Version>1.5</Version>
+  <Panel>
+    <PanelId>Ultrasound</PanelId>
+    <Type>Home</Type>
+    <Icon>Proximity</Icon>
+    <Order>2</Order>
+    <Color>#FFB400</Color>
+    <Name>Ultrasound</Name>
+    <Page>
+      <Name>UltraSound</Name>
+      <Row>
+        <Name>Ultrasound ON/OFF</Name>
+        <Widget>
+          <WidgetId>us_on_off</WidgetId>
+          <Type>ToggleButton</Type>
+          <Options>size=1</Options>
+        </Widget>
+      </Row>
+      <Row>
+        <Name>Volume</Name>
+        <Widget>
+          <WidgetId>volume_text</WidgetId>
+          <Name>?</Name>
+          <Type>Text</Type>
+          <Options>size=1;fontSize=normal;align=center</Options>
+        </Widget>
+        <Widget>
+          <WidgetId>volume_slider</WidgetId>
+          <Type>Slider</Type>
+          <Options>size=3</Options>
+        </Widget>
+      </Row>
+      <Options/>
+    </Page>
+  </Panel>
+</Extensions>
